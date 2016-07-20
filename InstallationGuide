@@ -24,3 +24,8 @@ brew install -build-from-source -with-python -fresh -vd protobuf
 6. Install boost libraries for python.
 brew install -build-from-source -fresh -vd boost boost-python
 
+7. Download Caffe
+git clone https://github.com/BVLC/caffe.git
+cd caffe
+cp Makefile.config.example Makefile.config
+
