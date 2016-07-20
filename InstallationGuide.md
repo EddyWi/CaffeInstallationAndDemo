@@ -5,6 +5,11 @@ Install Homebrew Package Manager (Paste the mentioned command in a terminal wind
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+Install hdf5
+```
+brew install hdf5
+```
+
 Get CUDA 7.0
 Install CUDA 7.0 (for OSX) from http://api.viglink.com/api/click?format=go&jsonp=vglnk_1469004594828107&key=3755fbf465dcd24d7f23d703cb98f0bd&libId=iqujwkfz0100su4m000DL1dx1k63d1r2n3&loc=http%3A%2F%2Finstalling-caffe-the-right-way.wikidot.com%2Fstart&v=1&out=https%3A%2F%2Fdeveloper.nvidia.com%2Fcuda-downloads&title=Caffe%20Installation%20-%20Installing%20Caffe%20the%20right%20way&txt=here
 
@@ -81,6 +86,12 @@ Python 2.7.11 (default, Jan 29 2016, 06:27:40)
 [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.56)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import caffe
+```
+
+if you get any errors relating to locale, add these to ~/.bash_profile
+```
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 ```
 
 This completed the installation of caffe
