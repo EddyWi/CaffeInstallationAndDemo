@@ -1,4 +1,7 @@
 Installation Guide
 
-Install Homebrew Package Manager (Paste the mentioned command in a terminal window)
+1. Install Homebrew Package Manager (Paste the mentioned command in a terminal window)
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+2. Get CUDA 7.0
+Install CUDA 7.0 (for OSX) from http://api.viglink.com/api/click?format=go&jsonp=vglnk_1469004594828107&key=3755fbf465dcd24d7f23d703cb98f0bd&libId=iqujwkfz0100su4m000DL1dx1k63d1r2n3&loc=http%3A%2F%2Finstalling-caffe-the-right-way.wikidot.com%2Fstart&v=1&out=https%3A%2F%2Fdeveloper.nvidia.com%2Fcuda-downloads&title=Caffe%20Installation%20-%20Installing%20Caffe%20the%20right%20way&txt=here
