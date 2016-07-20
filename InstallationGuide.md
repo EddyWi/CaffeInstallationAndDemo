@@ -70,7 +70,8 @@ Finally go to the python folder inside your caffe home directory
 ```
 
 Execute python
-```python
+```
+python
 ```
 You will see something like
 ```
