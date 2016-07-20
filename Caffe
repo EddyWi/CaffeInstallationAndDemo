@@ -1,2 +1,4 @@
+Installation Guide
+
 Install Homebrew Package Manager (Paste the mentioned command in a terminal window)
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
