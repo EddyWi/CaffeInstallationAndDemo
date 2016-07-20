@@ -16,11 +16,11 @@ args « "-DPYTHON_LIBRARY=#{py_prefix}/lib/libpython2.7.dylib"
 args « "-DPYTHON_INCLUDE_DIR=#{py_prefix}/include/python2.7"
 
 4. Install snappy, leveldb, gflags, glog, szip, lmdb and opencv.
-brew install —fresh -vd snappy leveldb gflags glog szip lmdb homebrew/science/opencv
+brew install -fresh -vd snappy leveldb gflags glog szip lmdb homebrew/science/opencv
 
 5. Install protobuf.
-brew install —build-from-source —with-python —fresh -vd protobuf
+brew install -build-from-source -with-python -fresh -vd protobuf
 
 6. Install boost libraries for python.
-brew install —build-from-source —fresh -vd boost boost-python
+brew install -build-from-source -fresh -vd boost boost-python
 
