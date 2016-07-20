@@ -29,3 +29,5 @@ git clone https://github.com/BVLC/caffe.git
 cd caffe
 cp Makefile.config.example Makefile.config
 
+8. Edit the Makefile.config file (see example file named 'Makefile.config'
+
