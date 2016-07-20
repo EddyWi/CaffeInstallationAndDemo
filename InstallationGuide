@@ -44,3 +44,14 @@ make pycaffe
 11. Set PYTHONPATH in your ~/.bash_profile
 export PYTHONPATH=<Your Caffe Home directory>/python:$PYTHONPATH
 
+12. Finally go to the python folder inside your caffe home directory
+cd <caffe-home>/python
+
+13. Execute python
+python
+You will see something like
+Python 2.7.11 (default, Jan 29 2016, 06:27:40)
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.56)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import caffe
+
