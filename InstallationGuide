@@ -31,3 +31,8 @@ cp Makefile.config.example Makefile.config
 
 8. Edit the Makefile.config file (see example file named 'Makefile.config'
 
+9. Compile
+make clean
+make all
+make test
+make runtest
