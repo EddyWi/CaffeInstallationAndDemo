@@ -36,3 +36,11 @@ make clean
 make all
 make test
 make runtest
+
+10. Install and configure the python interface to Caffe (PyCaffe)
+for req in $(cat requirements.txt); do pip install $req; done
+make pycaffe
+
+11. Set PYTHONPATH in your ~/.bash_profile
+export PYTHONPATH=<Your Caffe Home directory>/python:$PYTHONPATH
+
