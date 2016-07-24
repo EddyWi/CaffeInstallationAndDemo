@@ -1,2 +1,4 @@
 # CaffeInstallationAndDemo
-Caffe Installation on OS X El Capitan and a demo to illustrate usage
+InstallationGuide.md contains a guide to instal caffe on OS X El Capitan
+
+ImageClassifier.py demonstrates image classification of an image using CaffeNet
