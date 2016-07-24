@@ -66,13 +66,3 @@ for img_path in test_img_paths:
 
     print img_path
     print pred_probas.argmax()
-    print '-------'
-
-'''
-Making submission file
-'''
-with open("../caffe_models/caffe_model_2/submission_model_2.csv", "w") as f:
-    f.write("id,label\n")
-    for i in range(len(test_ids)):
-        f.write(str(test_ids[i]) + "," + str(preds[i]) + "\n")
-f.close()
