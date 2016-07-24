@@ -91,5 +91,4 @@ print 'output label:', labels[output_prob.argmax()]
 
 # sort top five predictions from softmax output
 top_inds = output_prob.argsort()[::-1][:5]  # reverse sort and take five largest items
-print 'probabilities and labels:'
-zip(output_prob[top_inds], labels[top_inds])
+print 'probabilities and labels:', zip(output_prob[top_inds], labels[top_inds])
