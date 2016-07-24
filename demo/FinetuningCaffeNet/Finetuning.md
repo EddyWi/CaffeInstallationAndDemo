@@ -18,9 +18,12 @@ To generate the mean image of training data
 ~~~
 
 Model Definition - caffenet_train_val.prototxt
+
 Solver Definition - solver.prototxt
 
 Start training the model by executing the command
 ~~~
 /usr/local/caffe/build/tools/caffe train --solver=/Users/harsh/solver.prototxt --weights /usr/local/caffe/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel 2>&1 | tee /Users/harsh/model_2_train.log
 ~~~
+
+Run MakePredictions.py to making the predictions
